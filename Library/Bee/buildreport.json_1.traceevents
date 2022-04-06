@@ -1,0 +1,1070 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1644571476945510, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571476946945, "dur": 14700, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571476961789, "dur": 123229, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571477085050, "dur": 12156, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571485455837, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571485456079, "dur": 12106, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571485468188, "dur": 294405, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571485762595, "dur": 11157, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571485774171, "dur": 33, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1644571485485445, "dur":7733, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485493187, "dur":218, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1644571485493453, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1644571485493493, "dur":620, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1644571485494148, "dur":1103, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485495251, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725260, "dur":508, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725768, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725786, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725791, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725804, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725807, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725818, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725821, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725831, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725835, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725847, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725851, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725861, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725864, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725878, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725882, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725892, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725895, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725906, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725909, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725919, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725922, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725931, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725934, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485725944, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485726452, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485726478, "dur":1618, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1644571485494153, "dur":1108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485495263, "dur":7571, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485502848, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1644571485502852, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485502880, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1644571485502882, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485502954, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503051, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503153, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503302, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503343, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503366, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503399, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503415, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503447, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503462, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503495, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503509, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503552, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503577, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503737, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503757, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485503801, "dur":87018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644571485590819, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485590911, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.vis" }}
+,{ "pid":12345, "tid":1, "ts":1644571485590964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485591051, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.vis" }}
+,{ "pid":12345, "tid":1, "ts":1644571485592098, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1644571485592118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485592126, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1644571485593420, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1644571485593440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485593447, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1644571485594553, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.caw" }}
+,{ "pid":12345, "tid":1, "ts":1644571485594599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485594610, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.caw" }}
+,{ "pid":12345, "tid":1, "ts":1644571485595708, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1644571485595727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485595734, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1644571485597152, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.vis" }}
+,{ "pid":12345, "tid":1, "ts":1644571485597173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485597211, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.vis" }}
+,{ "pid":12345, "tid":1, "ts":1644571485598046, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1644571485598088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485598097, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1644571485599493, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485599513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485599655, "dur":6772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485606445, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485606465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485606490, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485608375, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.caw" }}
+,{ "pid":12345, "tid":1, "ts":1644571485608399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485608406, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.caw" }}
+,{ "pid":12345, "tid":1, "ts":1644571485610928, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.vis" }}
+,{ "pid":12345, "tid":1, "ts":1644571485610951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485611195, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.vis" }}
+,{ "pid":12345, "tid":1, "ts":1644571485613246, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485613266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485613293, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485618265, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.caw" }}
+,{ "pid":12345, "tid":1, "ts":1644571485618287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485618545, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.caw" }}
+,{ "pid":12345, "tid":1, "ts":1644571485619897, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1644571485619915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485619921, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1644571485621929, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485621950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485622169, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485624425, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485624445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485624483, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485626965, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1644571485626989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485627001, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1644571485630754, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485630775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485630784, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1644571485634317, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1644571485634397, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485634437, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1644571485634462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485634468, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1644571485637116, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1644571485637206, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644571485637240, "dur":88477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485494467, "dur":949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485495416, "dur":7455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485502871, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1644571485502978, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503087, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503134, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503167, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503309, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503348, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503363, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503394, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503410, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503440, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503454, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503486, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503506, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503538, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503554, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503585, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503750, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485503805, "dur":220922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644571485724728, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644571485724801, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1644571485724802, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485494302, "dur":1065, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485495367, "dur":7552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485502920, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503051, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503120, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503188, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503274, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503316, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503350, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503365, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503399, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503415, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503447, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503463, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503495, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503509, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503547, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503561, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503719, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503757, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503805, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503859, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503948, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485503964, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485504031, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485504048, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485504131, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485504147, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485504207, "dur":163689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644571485667897, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644571485667995, "dur":57342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485495296, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485495297, "dur":7544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485502848, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1644571485502977, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503092, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503147, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503306, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503330, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503369, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503395, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503427, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503442, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503472, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503489, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503523, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503540, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503572, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503692, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503778, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503793, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503823, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485503844, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485504024, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485504041, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485504203, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644571485504218, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485504294, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485504326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485505553, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485507175, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485507196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485507204, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485509348, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485509370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485509380, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485511857, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485511877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485511885, "dur":7989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485519891, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485519913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485519924, "dur":18921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485538868, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485538889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485538899, "dur":7665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485546582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485546603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485546610, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485549306, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485549326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485549333, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485550654, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485550684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485550727, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485551524, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485551549, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485551559, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485553276, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485553299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485553307, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485555002, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485555022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485555061, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485555978, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485555996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485556003, "dur":7350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485563374, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485563399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485563411, "dur":9181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485572610, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485572673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485572683, "dur":8319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485581025, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485581048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485581057, "dur":5772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485591912, "dur":4937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485596856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485596864, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485600046, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.caw" }}
+,{ "pid":12345, "tid":4, "ts":1644571485600096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485600118, "dur":8521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.caw" }}
+,{ "pid":12345, "tid":4, "ts":1644571485608667, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485608922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485608978, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485611166, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485611184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485611191, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1644571485613660, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485613678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485613685, "dur":5167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485618869, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485618890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485618897, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1644571485621601, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485621623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485622122, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485624175, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485624252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485624724, "dur":6217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.vis" }}
+,{ "pid":12345, "tid":4, "ts":1644571485630987, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485631012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485631044, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1644571485634152, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1644571485634170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485634183, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1644571485637113, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1644571485637136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644571485637144, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1644571485638637, "dur":86857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485494455, "dur":954, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485495410, "dur":7454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485502865, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1644571485502989, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503120, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503192, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503304, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503330, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503369, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503401, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503437, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503452, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503485, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503501, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503536, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503552, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503716, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503905, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503962, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485503979, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504085, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504100, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504162, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504179, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504219, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.vis" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485504821, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.vis" }}
+,{ "pid":12345, "tid":5, "ts":1644571485510157, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485510180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485510187, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485512547, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485512586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485512593, "dur":8101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485520712, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1644571485520731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485520739, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1644571485525538, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485525558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485525567, "dur":5357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485530940, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485530965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485530972, "dur":19371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485550361, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485550400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485550407, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485554284, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485554309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485554318, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485556313, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485556361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485556369, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485557451, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485557471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485557478, "dur":7545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485565040, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485565102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485565111, "dur":8348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485573479, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485573554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485573565, "dur":8826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485582430, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.vis" }}
+,{ "pid":12345, "tid":5, "ts":1644571485582453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485582522, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.vis" }}
+,{ "pid":12345, "tid":5, "ts":1644571485585611, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485585633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485585641, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485588571, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1644571485588589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485588597, "dur":15939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1644571485604553, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485604571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485604579, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485607194, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485607215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485607243, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485609711, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485609731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485609738, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485612447, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485612524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485612531, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485614636, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485614654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485614661, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485617039, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485617085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485617094, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485619276, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485619298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485619305, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.caw" }}
+,{ "pid":12345, "tid":5, "ts":1644571485621810, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485621900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485622170, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485624468, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485624487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485624494, "dur":4812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1644571485629330, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485629355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485629365, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1644571485634441, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1644571485634464, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644571485634475, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1644571485637637, "dur":87928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485494665, "dur":799, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485495464, "dur":7388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485502854, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1644571485502951, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503081, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503133, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503195, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503311, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503352, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503371, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503510, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503526, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503568, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503584, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485503752, "dur":98418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644571485602170, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485602219, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1644571485602241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485602258, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1644571485604595, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1644571485604612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485604619, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1644571485605723, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1644571485605747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485605754, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1644571485610378, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1644571485610430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485610455, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1644571485612464, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.vis" }}
+,{ "pid":12345, "tid":6, "ts":1644571485612483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485612519, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.vis" }}
+,{ "pid":12345, "tid":6, "ts":1644571485614317, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.vis" }}
+,{ "pid":12345, "tid":6, "ts":1644571485614343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485614385, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.vis" }}
+,{ "pid":12345, "tid":6, "ts":1644571485615326, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1644571485615353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485615362, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1644571485617427, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1644571485617446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485617453, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1644571485618853, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1644571485618872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485618878, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1644571485621030, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.caw" }}
+,{ "pid":12345, "tid":6, "ts":1644571485621062, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485621080, "dur":6470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.caw" }}
+,{ "pid":12345, "tid":6, "ts":1644571485627567, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.caw" }}
+,{ "pid":12345, "tid":6, "ts":1644571485627590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485627598, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.caw" }}
+,{ "pid":12345, "tid":6, "ts":1644571485632596, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.caw" }}
+,{ "pid":12345, "tid":6, "ts":1644571485632616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485632626, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.caw" }}
+,{ "pid":12345, "tid":6, "ts":1644571485634622, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1644571485634645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644571485634649, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1644571485637432, "dur":88235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485494533, "dur":924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485495458, "dur":7401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485502862, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1644571485502977, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503147, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2.exe" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503178, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503265, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503305, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503348, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503364, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503398, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503413, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503445, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503460, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503492, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503510, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503555, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503574, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503719, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503777, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503820, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503835, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503907, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485503924, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504002, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504018, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504079, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504093, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504130, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504143, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504172, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504186, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504217, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485504848, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1644571485507161, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485507185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485507193, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485509360, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485509379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485509386, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485510731, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485510866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485510873, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485512861, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485512890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485512936, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485514306, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485514326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485514335, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485515719, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485515742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485515751, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485516499, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485516523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485516532, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485517350, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485517371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485517380, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485518089, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485518107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485518116, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d5/d5aacb4cfc74a2963f249bd3873fa0f3.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485519667, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485519686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485519728, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485521598, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485521616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485521624, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485526432, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485526451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485526459, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485530217, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485530240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485530247, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485532540, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485532563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485532572, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485534309, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485534351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485534359, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485536602, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485536622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485536631, "dur":6542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485543192, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485543214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485543282, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485544638, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485544656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485544663, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485545630, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485545672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485545679, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485546572, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485546591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485546599, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485548484, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485548512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485548553, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485549839, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485549863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485549873, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485552575, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485552599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485552608, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485553862, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485553881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485553889, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485555736, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485555756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485555763, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485557225, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485557245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485557252, "dur":6632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485563900, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485563918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485563925, "dur":7714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485571660, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485571680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485571690, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485574324, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485574344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485574384, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485575594, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485575629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485575657, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485576942, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485576961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485576968, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485579289, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485579309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485579316, "dur":5959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485585293, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485585313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485585322, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485588164, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485588186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485588195, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485591206, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485591229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485591237, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485592955, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485592975, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485592986, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485594860, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485594886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485594929, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.vis" }}
+,{ "pid":12345, "tid":7, "ts":1644571485595833, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485595853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485595861, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485597252, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485597294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485597301, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485599113, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485599131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485599605, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1644571485601499, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485601523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485601530, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485602502, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485602538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485602545, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485603686, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485603704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485603712, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485605774, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485605793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485605802, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485607788, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485607810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485607817, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485610971, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485610991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485611056, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485612206, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485612224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485612231, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485614827, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485614854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485614862, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485616317, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485616338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485616362, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485617634, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485617655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485617661, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1644571485619704, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485619728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485619735, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485621780, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485621804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485622120, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485623637, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485623660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485623672, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.caw" }}
+,{ "pid":12345, "tid":7, "ts":1644571485624698, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485624722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485624728, "dur":9393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/0f/0f7ee8df14a27d7512a2743cc33589ab.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1644571485634141, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1644571485634166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644571485634174, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1644571485638385, "dur":87231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485494692, "dur":778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485495470, "dur":7376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485502849, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1644571485502944, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503077, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503159, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503303, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503332, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503375, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503390, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503423, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503437, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503467, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503481, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503512, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503526, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503562, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503581, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503736, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503759, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503895, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485503951, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485504104, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485504123, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485504185, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644571485504197, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485504227, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485504251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485505066, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485507250, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485507278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485507284, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485509843, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485509864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485509871, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec958339f135fba66aafcc9bc8960950.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485512341, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485512360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485512367, "dur":7389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485519775, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485519795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485519802, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485522854, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485522874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485522912, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485525909, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485525928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485525936, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485528972, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485528996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485529006, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485530166, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485530189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485530196, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485533676, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485533701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485533754, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485535769, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485535790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485535800, "dur":3469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485539289, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485539308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485539316, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b6/b62cbc2ee18306736b4390f9a32c122b.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485540291, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485540321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485540367, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485541367, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485541387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485541395, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485543522, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485543541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485543548, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485544513, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485544567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485544577, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b3/b3f2d9ddd20eaa2815b902f42b2d92d5.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485545386, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485545407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485545451, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485546329, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485546347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485546354, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485547173, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485547191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485547198, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b0/b0a13907e897c61d846ca1892f4b7048.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485549558, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485549577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485549585, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485550881, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485550914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485550921, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485552674, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485552734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485552778, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485554070, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485554097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485554105, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485555567, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485555592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485555603, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1644571485556829, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485556869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485556915, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485558167, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485558187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485558194, "dur":7811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485566025, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485566052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485566062, "dur":7752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485573835, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485573856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485573866, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485576601, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485576620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485576627, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485579196, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485579214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485579220, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485583310, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485583332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485583340, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485586027, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485586047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485586054, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485590043, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485590067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485590075, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485592718, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485592736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485592775, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485593759, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485593782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485593789, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485595546, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485595591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485595599, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485597160, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485597186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485597225, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485598480, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485598505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485598522, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.caw" }}
+,{ "pid":12345, "tid":8, "ts":1644571485599864, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485599887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485599894, "dur":10440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485610359, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485610433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485610456, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485612568, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485612603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485612613, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485614492, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485614512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485614518, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/35/35a6f4d7917ca99bd0caa9d955ca2822.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1644571485616683, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485616704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485616745, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485618307, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485618546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485618588, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485619383, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485619414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485619463, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.vis" }}
+,{ "pid":12345, "tid":8, "ts":1644571485621009, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485621028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644571485621045, "dur":21147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1644571485642220, "dur":83133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485494843, "dur":675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485495518, "dur":7401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485502919, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1644571485502995, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503080, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503124, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503185, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503311, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503352, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503367, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503405, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503424, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503454, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503471, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503506, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503519, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503567, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503585, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485503739, "dur":46159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644571485549898, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485549942, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485549970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485549989, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a5/a5062b782c332e92ce2dd6f33ca09ecb.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485552106, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485552132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485552139, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485554107, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485554127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485554136, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a1/a172735151ddb021c3d0a0d54e8569d0.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485555399, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485555442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485555451, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9f/9f38ce41846f02ff1fc41fe89daf6fbc.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485556893, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485556914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485556921, "dur":6925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485563867, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485563887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485563896, "dur":8112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485572045, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485572076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485572085, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485575344, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485575400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485575412, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485578836, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.vis" }}
+,{ "pid":12345, "tid":9, "ts":1644571485578860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485578918, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.vis" }}
+,{ "pid":12345, "tid":9, "ts":1644571485581693, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485581717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485581727, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485585454, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485585501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485585509, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485588255, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1644571485588275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485588281, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1644571485591416, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1644571485591441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485591450, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1644571485592639, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.caw" }}
+,{ "pid":12345, "tid":9, "ts":1644571485592659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485592666, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7f/7f258f628487ef4a7a71f152a6913224.caw" }}
+,{ "pid":12345, "tid":9, "ts":1644571485593952, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485593970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485593977, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/7e/7e5707a9b0a87ca0e965bf0a18a9158f.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485596131, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485596212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485596223, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485597619, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485597637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485597644, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/74/747bfe456674a4a321aa9d03064344bc.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485599089, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485599121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485599594, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485606132, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.vis" }}
+,{ "pid":12345, "tid":9, "ts":1644571485606150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485606185, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.vis" }}
+,{ "pid":12345, "tid":9, "ts":1644571485607522, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485607541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485607549, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/43/43e17d5879e596fb8f7e9e32c4fc5f27.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485609283, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485609337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485609345, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485611787, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485611813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485611821, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/3a/3af6d373f5d6691d76ea7c648caec964.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1644571485614109, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.caw" }}
+,{ "pid":12345, "tid":9, "ts":1644571485614136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485614149, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.caw" }}
+,{ "pid":12345, "tid":9, "ts":1644571485618892, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485618912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485618919, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485622345, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485622367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485622374, "dur":8356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/11/1181e457239046036d8218bb9480ca15.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1644571485630752, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1644571485630773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485630782, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1644571485634310, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1644571485634398, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485634436, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1644571485634459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644571485634465, "dur":6084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1644571485640568, "dur":84913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485494987, "dur":579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485495566, "dur":7306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485502873, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1644571485502999, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503089, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503150, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503276, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503319, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503357, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503379, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503415, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503430, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503460, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503488, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503524, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503541, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503573, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503747, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503894, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485503922, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485504029, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485504066, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485504142, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644571485504159, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485504228, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485504262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485505305, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485507033, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485507055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485507065, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ec/ec961800aa719a919cd63d8458bcd897.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485510499, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485510517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485510575, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485512241, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485512263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485512272, "dur":7564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d6/d6b7c6fed772ed72a30067bb859f2bf4.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485519855, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485519897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485519907, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/d4/d471af407a300f16bd83d0a8a6fb6c5c.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485523677, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485523697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485523795, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/ca/ca2c14f371c3945c74626252c1fa803d.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485530102, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485530128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485530172, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485533403, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485533423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485533432, "dur":17973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/b9/b9a7c9aef0eae2ccfceb1277b5ea9ff8.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485551423, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485551441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485551448, "dur":10153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/a3/a3bad8d60b04fdfcbaa1284b17e494d1.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485561629, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485561658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485561667, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9acb22c046c63cb82f256336c5bad26c.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485566106, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485566130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485566137, "dur":8038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a96c818e6b14b7e2e4b4def27f4a39f.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485574192, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485574210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485574218, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/9a/9a3e5c54243a6818b327976046ee5edb.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485576770, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485576790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485576797, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/85/854ae0598ea89140d3ca69b55e3de284.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485582356, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485582380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485582474, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/83/83f0b5e0d05d78362c0ffb2278122dbe.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485585573, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485585593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485585600, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82fd54844bf5b3485cd84d8079f58a95.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485588556, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485588577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485588586, "dur":7997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/82/82cebf1aa918c79688f675714e0f2ed8.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485596628, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485596664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485596671, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/75/7554d44af5ef14a168334579892cc75a.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485599072, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485599119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485599581, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/6d/6db2cf1cc91f71bcf9ef3db717a95e3a.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485601270, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485601290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485601351, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485602595, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485602615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485602622, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/69/69ff8c87d1381f740d8a0433d0e27ec5.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1644571485604386, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485604406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485604447, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485605519, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485605568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485605578, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/4c/4c6ae271913cd99faa9e4b90ee009137.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485610607, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485610625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485610632, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/41/41cb0bb49cf46c4c111a07468fdf0a94.caw" }}
+,{ "pid":12345, "tid":10, "ts":1644571485612923, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485612943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485612952, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/38/38a5426699b53ad5d89a76f05ab11ca6.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485617200, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485617221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485617229, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/31/31fc588711930a2b083b5d4a83774e7d.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1644571485618837, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485618861, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485618872, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/2b/2b050c5bc13aabfe57b16d955b0eae5b.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485620941, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485620986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485620996, "dur":6625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/1d/1dcc78c6b5c31ceb53197b4da80e96ca.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1644571485627639, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485627659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485627699, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/GI/level0/00/00bf3a654a57e202b4022740df1651ae.vis" }}
+,{ "pid":12345, "tid":10, "ts":1644571485633282, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1644571485633302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485633308, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1644571485636745, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1644571485636771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644571485636782, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1644571485639326, "dur":86148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485495145, "dur":468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485495614, "dur":7251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485502865, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503028, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503105, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503163, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503245, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503275, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503335, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503352, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503383, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503397, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503429, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503444, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503494, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503511, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485503747, "dur":156599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1644571485660347, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1644571485660411, "dur":64861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1644571485494191, "dur":1118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1644571485495309, "dur":7592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1644571485502901, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1644571485502981, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1644571485503083, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1644571485503135, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1644571485503380, "dur":142857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/niran/Desktop/Proto 2/Prototype 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1644571485646237, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1644571485646288, "dur":79128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644571485729492, "dur":5823, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1644571485774266, "dur": 12432, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1644571485774158, "dur": 12582, "ph": "X", "name": "Write chrome-trace events", "args": {} },
