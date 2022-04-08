@@ -8,30 +8,27 @@ using UnityEngine;
 
 public class SensorTrigger : MonoBehaviour
 {
-    [DebugGUIPrint, DebugGUIGraph(group: 1, r: 1f, g: 0.5f, b: 0.7f, autoScale: true)]
+    [DebugGUIPrint, DebugGUIGraph(group: 0, r: 1f, g: 0.5f, b: 0.7f, autoScale: true)]
     float RawData;
     private GameObject obgj;
     private bool startlog=false;
-    [DebugGUIPrint, DebugGUIGraph(group: 3, r: 1f, g: 1f, b: 1f, min: 0, max: 5, autoScale: true)]
+    [DebugGUIPrint, DebugGUIGraph(group: 1, r: 1f, g: 1f, b: 1f, min: 0, max: 5, autoScale: true)]
     float SensorTime = 0;
     private float timelimit=10;
-    public GameObject crossing2Control;
+    public GameObject crossing2Control, crossing1Control;
     // [DebugGUIPrint, DebugGUIGraph(group: 1, r: 0, g: 1, b: 0)]
     // float mouseY;
 
     void Awake()
     {
         // Log (as opposed to LogPersistent) will disappear automatically after some time.
-        DebugGUI.Log("Debug Mode will Start now");
-        DebugGUI.SetGraphProperties("smoothFrameRate", "Distance", 0, 300, 1, new Color(0, 1, 1), false);
-        DebugGUI.SetGraphProperties("smoothFrameRate", "SmoothFPS", 0, 300, 2, new Color(0, 1, 1), false);
-        DebugGUI.SetGraphProperties("frameRate", "FPS", 0, 300, 2, new Color(1, 0.5f, 1), false);
+       
 
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame
@@ -50,9 +47,7 @@ public class SensorTrigger : MonoBehaviour
         {
             SensorTime = 0;
         }
-        DebugGUI.LogPersistent("sensor_detected", "Sensor Detected: " + startlog.ToString());
-        DebugGUI.LogPersistent("smoothFrameRate", "SmoothFPS: " + (1 / Time.deltaTime).ToString("F3"));
-        DebugGUI.LogPersistent("frameRate", "FPS: " + (1 / Time.smoothDeltaTime).ToString("F3"));
+        
 
         if (Time.smoothDeltaTime != 0)
             DebugGUI.Graph("smoothFrameRate", 1 / Time.smoothDeltaTime);
@@ -64,7 +59,7 @@ public class SensorTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("OnTriggerEnter: " + other.name);
+     
         if (other.tag == "Sensor")
         {
             obgj = other.gameObject;
@@ -72,9 +67,13 @@ public class SensorTrigger : MonoBehaviour
             other.GetComponent<SensorLightVisualizer>().shouldGlow = true;
             timelimit = other.GetComponent<SensorLightVisualizer>().timelimit;
         }
-        else if (other.tag == "trigger")
+        else if (other.tag == "trigger2")
         {
             crossing2Control.SetActive(true);
+        }
+        else if (other.tag == "trigger")
+        {
+            crossing1Control.SetActive(true);
         }
     }
     void OnTriggerExit(Collider other)
@@ -87,9 +86,13 @@ public class SensorTrigger : MonoBehaviour
             other.GetComponent<SensorLightVisualizer>().shouldGlow = false;
             timelimit = other.GetComponent<SensorLightVisualizer>().timelimit;
         }
-        else if (other.tag == "trigger")
+        else if (other.tag == "trigger2")
         {
             crossing2Control.SetActive(false); 
+        }
+        else if (other.tag == "trigger")
+        {
+            crossing1Control.SetActive(false);
         }
     }
 }

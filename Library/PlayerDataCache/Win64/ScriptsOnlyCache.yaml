@@ -3,11 +3,23 @@ ScriptsOnlyBuild:
     Assembly-CSharp-Editor.dll:
     - BrokenVector.FastGrid.FastGrid
     Assembly-CSharp.dll:
+    - AmbulanceDetect
     - CameraFollow
+    - CarEmiter
+    - CarEmiterC3
     - CarMechanics
+    - CarSimMove
+    - Crossing1CarMov
+    - Crossing3N1
+    - Crossing3Signal
+    - EnableQueue
     - HighwaySignal
+    - InputManagerSingleton
     - SensorLightVisualizer
+    - SensorLightVisualizerCrossing3
     - SensorTrigger
+    - SensorTriggerModiefied
+    - SensorTriggerModiefiedCrossing3
     - SignalCycle
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -30,6 +42,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Proto 1.unity:
     - Class: 1
@@ -49,8 +62,6 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
@@ -73,44 +84,62 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1542}
+      Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 1878}
+      Script: {instanceID: 1742}
     - Class: 114
-      Script: {instanceID: 2186}
+      Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 2562}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2394}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2442}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 2616}
     - Class: 114
-      Script: {instanceID: 3640}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 4056}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 3472}
     - Class: 114
-      Script: {instanceID: 4872}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 5078}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 5162}
+      Script: {instanceID: 4434}
     - Class: 114
-      Script: {instanceID: 5430}
+      Script: {instanceID: 4502}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 4546}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 4614}
     - Class: 114
-      Script: {instanceID: 7966}
+      Script: {instanceID: 4828}
+    - Class: 114
+      Script: {instanceID: 5094}
+    - Class: 114
+      Script: {instanceID: 5230}
+    - Class: 114
+      Script: {instanceID: 5296}
+    - Class: 114
+      Script: {instanceID: 5424}
+    - Class: 114
+      Script: {instanceID: 5516}
+    - Class: 114
+      Script: {instanceID: 5722}
+    - Class: 114
+      Script: {instanceID: 5800}
+    - Class: 114
+      Script: {instanceID: 7006}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -138,6 +167,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
+    Assets/Scenes/SingletonScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2070}
+    - Class: 114
+      Script: {instanceID: 3572}
+    - Class: 114
+      Script: {instanceID: 3664}
+    - Class: 114
+      Script: {instanceID: 3756}
+    - Class: 114
+      Script: {instanceID: 3982}
+    - Class: 114
+      Script: {instanceID: 4614}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -151,6 +221,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c088f040c3e33062ffeb08efd1ae47b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarEmiter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -193,6 +269,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d8c8ca28454c2b82a37edfb3164b5ff5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Crossing1CarMov
   - hash:
       serializedVersion: 2
       Hash: 0a0aaddd8379781bebd526e9b7da5a8e
@@ -267,7 +349,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5ba9b86b45e4d527ab1dd1bd5d893460
+      Hash: 2c3c790fb3e5ad1dfcb47e8feb5e9e77
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HighwaySignal
@@ -513,6 +595,12 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 7d55b525d839b69c72f555f2fdbfb69d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Crossing3Signal
+  - hash:
+      serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -523,6 +611,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e3f2c78bc70c13c517844a3ef95b5e99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SensorLightVisualizerCrossing3
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -549,6 +643,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: ecb246c00c64ba0407fa41d29790d39b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InputManagerSingleton
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -571,6 +671,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 2d6227c3a2d2b6f2febebb971d75503a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CubeColorer
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -613,6 +719,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7c1d1b2eb464841b2e8f28b92d21176c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AmbulanceDetect
   - hash:
       serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
@@ -705,7 +817,7 @@ ScriptsOnlyBuild:
     className: UnityOnEndDragMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 4cf570a97a42ae4fca98e9467eac7ad7
+      Hash: 693ff77176ef2a0dd1ee9137ca938cad
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SensorTrigger
@@ -721,6 +833,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarSimMove
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -819,6 +937,12 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 4b0065976126fcb8b27128b6480d126c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InputAxisGenerator
+  - hash:
+      serializedVersion: 2
       Hash: 4f60ff347d4efee4ef8cc7f627735018
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -849,10 +973,22 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: 1df08c263c6ebe10708d69767653fd08
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnableQueue
+  - hash:
+      serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SensorTriggerModiefied
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -865,6 +1001,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SensorTriggerModiefiedCrossing3
   - hash:
       serializedVersion: 2
       Hash: dad1e7b4a3c632dfa2f331bbb678e15d
@@ -909,6 +1051,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 610989fd9b652b0a3c4e928db7e05544
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Crossing3N1
+  - hash:
+      serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -919,6 +1067,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DebugGUIExamples
+  - hash:
+      serializedVersion: 2
+      Hash: 2d2df9f2941da69a68280c2d571e79db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarEmiterC3
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1173,5 +1327,7 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
+  - Assets/Scenes/SingletonScene.unity
   - Assets/Scenes/Proto 1.unity
-  playerPath: C:/Users/niran/Desktop/Proto 2/Prototype 2.exe
+  playerPath: D:/Projects/Unity Projects/Smart Traffic System/Prototype 2/Build/Windows/Prototype
+    2.exe

@@ -14,9 +14,9 @@ public class CarMechanics : MonoBehaviour
       [Header("CAR SETUP")]
       [Space(10)]
       [Range(20, 250)]
-      public int maxSpeed = 90; //The maximum speed that the car can reach in km/h.
+      public int maxSpeed; //The maximum speed that the car can reach in km/h.
       [Range(10, 120)]
-      public int maxReverseSpeed = 45; //The maximum speed that the car can reach while going on reverse in km/h.
+      public int maxReverseSpeed; //The maximum speed that the car can reach while going on reverse in km/h.
       [Range(1, 10)]
       public int accelerationMultiplier = 2; // How fast the car can accelerate. 1 is a slow acceleration and 10 is the fastest.
       [Space(10)]
@@ -123,13 +123,19 @@ public class CarMechanics : MonoBehaviour
       float RLWextremumSlip;
       WheelFrictionCurve RRwheelFriction;
       float RRWextremumSlip;
+    private int maxspeedcopy;
+    private int maxrevspeedcopy;
+    private int maxSteeringAnglecopy;
 
     void Start()
     {
-      //In this part, we set the 'carRigidbody' value with the Rigidbody attached to this
-      //gameObject. Also, we define the center of mass of the car with the Vector3 given
-      //in the inspector.
-      carRigidbody = gameObject.GetComponent<Rigidbody>();
+        maxspeedcopy = maxSpeed;
+        maxrevspeedcopy = maxReverseSpeed;
+        maxSteeringAnglecopy = maxSteeringAngle;
+        //In this part, we set the 'carRigidbody' value with the Rigidbody attached to this
+        //gameObject. Also, we define the center of mass of the car with the Vector3 given
+        //in the inspector.
+        carRigidbody = gameObject.GetComponent<Rigidbody>();
       carRigidbody.centerOfMass = bodyMassCenter;
 
       //Initial setup to calculate the drift value of the car. This part could look a bit
@@ -179,7 +185,22 @@ public class CarMechanics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-   
+
+        maxSpeed = (int)(maxspeedcopy * InputManager.controllers[0].GetRightTrigger());
+        maxReverseSpeed = (int)(maxrevspeedcopy * InputManager.controllers[0].GetLeftTrigger());
+        maxSteeringAngle = (int)(maxSteeringAnglecopy * Math.Abs(InputManager.controllers[0].GetLeftStickX()));
+        if (Input.GetKey(KeyCode.W))
+        {
+            maxSpeed = maxrevspeedcopy;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            maxReverseSpeed = maxrevspeedcopy;
+        }
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            maxSteeringAngle = maxSteeringAnglecopy;
+        }
         //CAR DATA
 
         // We determine the speed of the car.
@@ -199,41 +220,50 @@ public class CarMechanics : MonoBehaviour
       A (turn left), D (turn right) or Space bar (handbrake).
       */
 
-      if(Input.GetKey(KeyCode.W)){
+      if(InputManager.controllers[0].GetRightTrigger() > 0 || Input.GetKey(KeyCode.W))
+        {
         CancelInvoke("DecelerateCar");
         deceleratingCar = false;
         GoForward();
       }
-      if(Input.GetKey(KeyCode.S)){
+      if(InputManager.controllers[0].GetLeftTrigger() > 0 || Input.GetKey(KeyCode.S))
+        {
         CancelInvoke("DecelerateCar");
         deceleratingCar = false;
         GoReverse();
       }
 
-      if(Input.GetKey(KeyCode.A)){
+      if(InputManager.controllers[0].GetLeftStickX() < 0 || Input.GetKey(KeyCode.A))
+        {
         TurnLeft();
       }
-      if(Input.GetKey(KeyCode.D)){
+      if(InputManager.controllers[0].GetLeftStickX() > 0 || Input.GetKey(KeyCode.D))
+        {
         TurnRight();
       }
-      if(Input.GetKey(KeyCode.Space)){
+      if(Input.GetKey(KeyCode.Space) || InputManager.controllers[0].GetButtonAState() == XboxController.ButtonState.isPressed)
+        {
         CancelInvoke("DecelerateCar");
         deceleratingCar = false;
         Handbrake();
       }
-      if(Input.GetKeyUp(KeyCode.Space)){
+    
+      if (Input.GetKeyUp(KeyCode.Space) )
+        {
         RecoverTraction();
       }
-      if((!Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W)) && !Input.GetKey(KeyCode.Space) && !deceleratingCar){
+      if(InputManager.controllers[0].GetLeftTrigger() == 0 && InputManager.controllers[0].GetRightTrigger() == 0 && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.Space) && !(InputManager.controllers[0].GetButtonAState() == XboxController.ButtonState.isPressed) && !deceleratingCar){
         InvokeRepeating("DecelerateCar", 0f, 0.1f);
         deceleratingCar = true;
       }
-      if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && steeringAxis != 0f){
+      if(InputManager.controllers[0].GetLeftStickX()==0 && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && steeringAxis != 0f){
         ResetSteeringAngle();
       }
+        
+       
 
-      // We call the method AnimateWheelMeshes() in order to match the wheel collider movements with the 3D meshes of the wheels.
-      AnimateWheelMeshes();
+        // We call the method AnimateWheelMeshes() in order to match the wheel collider movements with the 3D meshes of the wheels.
+        AnimateWheelMeshes();
 
     }
 

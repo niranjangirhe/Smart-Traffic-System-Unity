@@ -60,6 +60,7 @@
     <Compile Include="Assets\BrokenVector\FastGrid\Editor\Utils\Base64.cs" />
     <Compile Include="Assets\BrokenVector\FastGrid\Editor\FastGrid.cs" />
     <Compile Include="Assets\BrokenVector\FastGrid\Editor\Constants.cs" />
+    <Compile Include="Assets\Editor\InputAxisGeneratorEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

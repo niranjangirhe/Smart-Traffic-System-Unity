@@ -359,6 +359,7 @@
 "Assets/BrokenVector/FastGrid/Editor/FastGrid.cs"
 "Assets/BrokenVector/FastGrid/Editor/Utils/AssetPrefs.cs"
 "Assets/BrokenVector/FastGrid/Editor/Utils/Base64.cs"
+"Assets/Editor/InputAxisGeneratorEditor.cs"
 -langversion:9.0
 
 /deterministic

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Sensor
   - trigger
+  - trigger2
   layers:
   - Default
   - TransparentFX

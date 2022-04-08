@@ -15,6 +15,7 @@ public class SignalCycle : MonoBehaviour
     public int sliderTotal;
     public Slider[] sliderval;
     public TextMeshPro[] txt;
+    private string[] st = { "A ", "B ", "C ", "D " };
     void Start()
     {
         for(int i=0;i<4;i++)
@@ -37,8 +38,8 @@ public class SignalCycle : MonoBehaviour
         for (int i = 0; i < 4; i++)
         {
             percentage[i] = Mathf.RoundToInt(sliderval[i].value)*100 / sliderTotal;
-            txt[i].text = Mathf.RoundToInt(percentage[i] / mf).ToString();
-            Debug.Log(percentage[i]);
+            txt[i].text = st[i]+Mathf.RoundToInt(percentage[i] / mf).ToString();
+            //Debug.Log(percentage[i]);
         }
         time += Time.deltaTime* mf;
         if(time%100< percentage[0])
@@ -48,7 +49,7 @@ public class SignalCycle : MonoBehaviour
         }
         else if(time % 100 < percentage[0]+ percentage[1])
         {
-            txt[4].text = Mathf.RoundToInt((time % 100 - percentage[0]) / mf).ToString();
+            txt[4].text =Mathf.RoundToInt((time % 100 - percentage[0]) / mf).ToString();
             SignalTurn(1);
         }
         else if (time % 100 < percentage[0] + percentage[1] + percentage[2])

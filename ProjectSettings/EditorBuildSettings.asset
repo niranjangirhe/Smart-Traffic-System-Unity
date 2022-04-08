@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SingletonScene.unity
+    guid: 673af477227a5ae4fbc5729c325f82f0
+  - enabled: 0
+    path: Assets/Xbox Input Kit/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Proto 1.unity
+    guid: d05c07244ed6a3740be3bdad186521e6
   m_configObjects: {}

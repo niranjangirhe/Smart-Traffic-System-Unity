@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class HighwaySignal : MonoBehaviour
 {
@@ -12,7 +13,9 @@ public class HighwaySignal : MonoBehaviour
     private float timer=0;
     public bool[] buff;
     public TextMeshPro txt;
-   
+    public GameObject[] queueMics;
+    public Toggle t;
+
     void Start()
     {
         txt.text = timelimit.ToString();
@@ -24,7 +27,12 @@ public class HighwaySignal : MonoBehaviour
         timer += Time.deltaTime;
         if(sensor[0].GetComponent<SensorLightVisualizer>().blink || buff[0])
         {
-            if(buff[0] == false)
+            t.isOn = false;
+            queueMics[0].SetActive(false);
+            queueMics[1].SetActive(false);
+            queueMics[2].SetActive(false);
+            queueMics[3].SetActive(false);
+            if (buff[0] == false)
             {
                 timer = 0;
             }
