@@ -139,6 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86e0af9d59c1374aa7a3c6146bac863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crossing2Control: {fileID: 0}
+  crossing1Control: {fileID: 0}
 --- !u!1 &934883528070179459
 GameObject:
   m_ObjectHideFlags: 0
